@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "blagues-api": "^2.1.0",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "nedb": "^1.8.0",
+    "openai": "^3.1.0"
+  },
+  "name": "openai-discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thebrainfox#4621",
+  "license": "ISC",
+  "description": ""
+}
