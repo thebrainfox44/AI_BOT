@@ -37,7 +37,7 @@ const {
   SelectMenuBuilder,
   PermissionsBitField,
 } = require("discord.js");
-const client = new Client({ intents: 65535 });
+const client = new Discord.Client({ intents: 65535 });
 const BlaguesAPI = require("blagues-api");
 const { default: test } = require("node:test");
 const { text } = require("stream/consumers");
