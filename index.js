@@ -50,7 +50,7 @@ const DB_train = new Datastore({
   autoload: true,
 });
 const blagues = new BlaguesAPI(
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODIzODI1NzM4MTE3MDIxNzE2IiwibGltaXQiOjEwMCwia2V5IjoiSHpWOVFOeDVNS2Q5S3lDbkJYMXlyZ0tTVDFUYVAyajhtdnd1RkVVUDkzZU54WG15b3UiLCJjcmVhdGVkX2F0IjoiMjAyMi0wOS0yNlQwMzo1MTo0NSswMDowMCIsImlhdCI6MTY2NDE2NDMwNX0.pTjv9TLKRBnrIcxPgmcV1UVF-1T4kEYc_fR3QLHdEtw"
+  "API KEY"
 );
 
 async function getnormaljoke() {
@@ -116,5 +116,5 @@ client.on("error", (error) => {
 console.log(process.env.DISCORD_TOKEN);
 
 client.login(
-  "MTAyMDA2ODY2OTA2MzE3NjIwMg.GiTioY.GoP4sTW-YiO2nutk0U-AxCkKqm2ZcG_GSFQa50"
+  ""
 );
