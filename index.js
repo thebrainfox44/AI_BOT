@@ -63,7 +63,7 @@ async function getnormaljoke() {
 function setActivities() {
   const activities = [
     "try to send me a message, i may respond you in a few seconds",
-    "développeur: thebrainfox#4621 ",
+    "développeur: XXXXX",
   ];
 
   setInterval(() => {
@@ -74,7 +74,7 @@ function setActivities() {
 }
 
 function notifLogin() {
-  client.users.fetch("823825738117021716").then((user) => {
+  client.users.fetch("XXXXXX").then((user) => {
     user.send("im online!");
     console.log("connected with ", client.user.tag);
   });
