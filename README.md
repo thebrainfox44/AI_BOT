@@ -1,6 +1,9 @@
 # AI BOT
 this project is a proof of concept showcasing a text to programatic command using a discord botfor user inputs.
 
+# DISCONTINUED
+the project has been discontinued and havent receivend any update for aproximatly 2 years. API evolved and some of them were completly shut down. This code might not work anymore. If the code is still working (unlikely) you will also need to modify 1 line otherwise it would crash. Line 75 is trying to send a message to a specific user on startup. the user id has been redacted. you need to replace XXXXX with a proper discord userid.
+
 # How to start
 1. get a discord token and an openai api key
 2. open .env and provide the credentials
